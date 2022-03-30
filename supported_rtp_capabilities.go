@@ -275,6 +275,11 @@ var supportedRtpCapabilities = RtpCapabilities{
 				{Type: "transport-cc"},
 			},
 		},
+		{
+			Kind:      "video",
+			MimeType:  "video/PS",
+			ClockRate: 90000,
+		},
 	},
 	HeaderExtensions: []*RtpHeaderExtension{
 		{
